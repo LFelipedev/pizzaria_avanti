@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Delícia - Faça seu Pedido</title>
+</head>
+<body>
+
+    <header>
+        <h1>Pizza Delícia</h1>
+        <h2>Faça seu Pedido</h2>
+        <p>Personalize sua pizza e aproveite a autêntica experiência Pizza Delícia!</p>
+        <hr>
+    </header>
+
+    <!-- Formulário de Pedido -->
+    <section>
+        <form action="#" method="post">
+            <!-- Nome -->
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <!-- Telefone -->
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <!-- Linha divisória -->
+            <hr>
+
+            <!-- Escolha de Pizza -->
+            <label for="pizza">Escolha sua Pizza:</label><br>
+            <select id="pizza" name="pizza" required>
+                <option value="" disabled selected>Selecione uma pizza</option>
+                <option value="mussarela">Mussarela</option>
+                <option value="calabresa">Calabresa</option>
+                <option value="marguerita">Marguerita</option>
+                <option value="quatro-queijos">Quatro Queijos</option>
+                <option value="portuguesa">Portuguesa</option>
+            </select><br><br>
+
+            <!-- Tamanho da Pizza -->
+            <p>Tamanho da Pizza:</p>
+    
+            <label><input type="radio" name="tamanho" value="pequena" required> Pequena</label><br>
+            <label><input type="radio" name="tamanho" value="media" required> Média</label><br>
+            <label><input type="radio" name="tamanho" value="grande" required> Grande</label><br><br>
+
+            <!-- Linha divisória -->
+            <hr>
+            
+            <!-- Ingredientes Extras -->
+            <p>Ingredientes Extras:</p>
+            <label><input type="checkbox" name="extras" value="azeitonas"> Azeitonas</label><br>
+            <label><input type="checkbox" name="extras" value="cebola"> Cebola</label><br>
+            <label><input type="checkbox" name="extras" value="bacon"> Bacon</label><br>
+            <label><input type="checkbox" name="extras" value="pimentao"> Pimentão</label><br><br>
+
+            <!-- Observações Adicionais -->
+            <label for="observacoes">Observações Adicionais:</label><br>
+            <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea><br><br>
+
+            <!-- Linha divisória -->
+            <hr>
+
+            <!-- Método de Pagamento -->
+            <label for="pagamento">Método de Pagamento:</label><br>
+            <select id="pagamento" name="pagamento" required>
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="cartao-credito">Cartão de Crédito</option>
+                <option value="cartao-debito">Cartão de Débito</option>
+                <option value="dinheiro">Dinheiro</option>
+                <option value="pix">PIX</option>
+            </select><br><br>
+
+            <!-- Botão de Envio -->
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </section>
+
+</body>
+</html>

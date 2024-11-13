@@ -1,0 +1,219 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    background-color: #ffd382; /* Cor de fundo amarelo claro */
+    font-family: monospace;
+}
+
+/* Cabeçalho - Estilos gerais */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A52A2A;
+    padding: 20px;
+}
+
+/* Estilo para o logo */
+.logo {
+    width: 130px;
+    border-radius: 50%;
+}
+
+/* Título da página */
+.title {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Barra de Navegação */
+.nav-list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd382; /* Cor de destaque quando o link é sobreposto */
+}
+
+/* Seção 'Sobre Nós' */
+.historia {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+}
+
+.historia h2 {
+    font-size: 2.5rem;
+    color: #A52A2A;
+    margin-bottom: 20px;
+}
+
+.historia p, .historia ol {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.historia ol {
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Lista de pizzas */
+.pizza-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cada item de pizza */
+.pizza-item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Título de cada pizza */
+.pizza-item h3 {
+    font-size: 1.5rem;
+    color: #A52A2A;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo para as figuras (imagens e descrições) */
+.pizza-figure {
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 10px;  /* Adiciona espaçamento interno */
+    box-sizing: border-box;
+}
+
+/* Estilo para as imagens das pizzas */
+.pizza-img {
+    width: 100%;  /* Garante que a imagem ocupe toda a largura do contêiner */
+    max-width: 300px;  /* Limita a largura máxima da imagem */
+    height: auto;  /* Mantém a proporção da imagem */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre as imagens */
+.pizza-img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para a legenda */
+.pizza-figure figcaption {
+    font-size: 1rem;
+    color: black;
+    margin-top: 10px;
+    font-family: monospace;
+    text-align: center;  /* Centraliza o texto */
+    padding: 5px 0;  /* Adiciona espaçamento acima e abaixo do texto */
+}
+
+/* Estilo da lista de pizzas, com espaçamento entre os itens */
+.pizza-list li {
+    display: inline-block;
+    width: 30%;  /* Ajusta a largura dos itens para 3 itens por linha */
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    text-align: center;  /* Garante que o conteúdo dentro de cada item de pizza esteja centralizado */
+}   
+
+.cardapio h2{
+    justify-self: center;
+    font-size: 2.5rem;
+    color: #A52A2A;
+    margin-bottom: 20px;
+}
+
+/* Botão para Página de Pedidos */
+.cardapio a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #A52A2A;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.linkpage{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 5%;
+}
+
+.colorp{
+    color: black    ;
+}
+/* Rodapé - Informações e estilo */
+.footer {
+    background-color: #A52A2A;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Título do Rodapé */
+.title-footer {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Lista de informações do Rodapé */
+.list-footer {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item-footer {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Links do Rodapé */
+.link-footer {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link-footer:hover {
+    color: #ffd382; /* Cor de destaque ao passar o mouse */
+}
