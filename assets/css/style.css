@@ -11,8 +11,10 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+
+
 /* Cabeçalho - Estilos gerais */
-.header {
+.header-home {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -150,13 +152,34 @@ body {
     box-sizing: border-box;
     margin: 10px 15px;
     text-align: center;  /* Garante que o conteúdo dentro de cada item de pizza esteja centralizado */
-}   
+}  
 
-.cardapio h2{
+/* Cardapio */
+
+.header-cardapio {
+    background-color: #A52A2A;
+    padding: 50px;
+}
+
+.header-cardapio h1{
     justify-self: center;
-    font-size: 2.5rem;
-    color: #A52A2A;
+    font-size: 40px;
     margin-bottom: 20px;
+}
+
+.header-cardapio p {
+    font-size: 25px;
+}
+
+.pizzas-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 25%;
+    padding: 20px;
+    margin: 50px auto 50px auto;
+    background-color: #A52A2A;
 }
 
 /* Botão para Página de Pedidos */
