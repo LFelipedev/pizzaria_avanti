@@ -203,6 +203,18 @@ body {
 .colorp{
     color: black    ;
 }
+
+/* Página de pedidos */
+
+.pedidos-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background-color: #a52a2a99;
+    border-radius: 10px;
+}
+
 /* Rodapé - Informações e estilo */
 .footer {
     background-color: #A52A2A;
