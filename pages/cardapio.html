@@ -7,10 +7,18 @@
         <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
+        <!--Botão flexivel-->
+        <a href="#topo" id="goto_top"><button class="button-generic">↑ Ir para o topo ↑</button></a>
         <!--Cabeçalho-->
-        <header class="header-cardapio">
-            <h1>Nosso Cardápio</h1>
-            <p>Bem-vindo ao nosso cardápio! Aqui você encontra uma variedade de pizzas deliciosas que agradam a todos os paladares. Começamos com nossas pizzas tradicionais, preparadas com receitas clássicas e ingredientes frescos, perfeitas para quem adora sabores autênticos. Em seguida, temos as pizzas especiais, combinações criativas e exclusivas que surpreendem em cada pedaço. Para finalizar, temos sobremesas irresistíveis para adoçar seu momento, além de uma seleção de bebidas para acompanhar sua refeição. Aproveite e bom apetite!</p>
+        <header>
+            <nav id="topo" class="secoes_itens">
+                <a href="#tradicional"><button class="button-generic">Pizzas Tradicionais</button></a>
+                <a href="#especial"><button class="button-generic">Pizzas Especiais</button></a>
+                <a href="#sobremesa"><button class="button-generic">Sobremesas</button></a>
+                <a href="#bebida"><button class="button-generic">Bebidas</button></a>
+            </nav>
+        <h1>Nosso Cardápio</h1>
+        <p>Bem-vindo ao nosso cardápio! Aqui você encontra uma variedade de pizzas deliciosas que agradam a todos os paladares. Começamos com nossas pizzas tradicionais, preparadas com receitas clássicas e ingredientes frescos, perfeitas para quem adora sabores autênticos. Em seguida, temos as pizzas especiais, combinações criativas e exclusivas que surpreendem em cada pedaço. Para finalizar, temos sobremesas irresistíveis para adoçar seu momento, além de uma seleção de bebidas para acompanhar sua refeição. Aproveite e bom apetite!</p>
         </header>
 
         <!--Cardápio-->
@@ -18,7 +26,7 @@
             <!--Pizzas Tradicionais-->
             <section class="pizzas-container">
                 <hr>
-                <h2>Pizzas Tradicionais</h2>
+                <h2 id="tradicional">Pizzas Tradicionais</h2>
                 <figure>
                     <img width="300" src="https://o.imgac.net/receita/pizza-marguerita-34328.jpg" alt="Imagem de Pizza Margherita - pizza clássica com molho de tomate, mussarela e manjericão">
                     <figcaption><i>Pizza Margherita</i></figcaption>
@@ -69,7 +77,7 @@
             <!--Pizzas Especiais-->
             <section class="pizzas-container">
                 <br>
-                <h2>Pizzas Especiais</h2>
+                <h2 id="especial">Pizzas Especiais</h2>
                 <figure>
                     <img width="300"  src="https://i.pinimg.com/originals/6b/16/c6/6b16c64e378240f274f7760488983e60.jpg" alt="Imagem de Pizza de Frango com Catupiry - pizza com frango desfiado, catupiry e milho">
                     <figcaption><i>Pizza de Frango com Catupiry</i></figcaption>
@@ -120,7 +128,7 @@
             <!--Sobremesas-->
             <section class="pizzas-container">
                 <br>
-                <h2>Sobremesas</h2>
+                <h2 id="sobremesa">Sobremesas</h2>
                 <figure>
                     <img width="300"  src="https://oquetempracomer.com.br/wp-content/uploads/elementor/thumbs/Brownie-de-chocolate-com-sorvete-4-pxwpt70slxi6kk1mtsi0v2bcjh6dzcmawnzyu1rzbw.jpg" alt="Imagem de Brownie com Sorvete - brownie de chocolate servido com sorvete de creme">
                     <figcaption><i>Brownie com Sorvete</i></figcaption>
@@ -171,7 +179,7 @@
             <!--Bebidas-->
             <section class="pizzas-container">
                 <br>
-                <h2>Bebidas</h2>
+                <h2 id="bebida">Bebidas</h2>
                 <figure>
                     <img width="300"  src="https://www.kindpng.com/picc/m/380-3805562_clip-art-imagens-de-refrigerantes-refrigerante-lata-hd.png" alt="Imagem de Refrigerante Lata - lata de refrigerante com diversos sabores disponíveis">
                     <figcaption><i>Refrigerante Lata</i></figcaption>

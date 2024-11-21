@@ -182,6 +182,26 @@ body {
     background-color: #A52A2A;
 }
 
+.button-generic {
+    padding: 15px 32px;
+    background-color: #FFFFFF;
+    border: 2px solid #AAAAAA;
+    color: #333333;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.button-generic:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+#goto_top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
 /* Botão para Página de Pedidos */
 .cardapio a {
     display: inline-block;
@@ -217,15 +237,19 @@ body {
 
 /* Rodapé - Informações e estilo */
 .footer {
+    display: flex;
+    flex-direction: column;
     background-color: #A52A2A;
-    color: white;
     padding: 40px 20px;
     text-align: center;
 }
 
 .footer-content {
-    max-width: 1200px;
+    display: flex;
     margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
 }
 
 /* Título do Rodapé */
@@ -235,26 +259,26 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     color: white;
+    text-align: left;
 }
 
 /* Lista de informações do Rodapé */
 .list-footer {
-    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
     padding: 0;
+    margin: 0;
 }
 
-.item-footer {
-    font-size: 1rem;
-    margin-bottom: 10px;
+/* Alteração na tag a */
+.link-footer {
+    display: inline-block;
 }
 
 /* Links do Rodapé */
-.link-footer {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.link-footer:hover {
-    color: #ffd382; /* Cor de destaque ao passar o mouse */
+.ico-footer {
+    width: 30px;
+    height: auto;
+    display: inline-block;
 }

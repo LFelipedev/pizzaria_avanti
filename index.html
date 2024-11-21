@@ -1,142 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <!-- Metadados do documento -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza Delícia</title>
-    <link rel="shortcut icon" href="./assets/images/logo-marca.avif" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <!-- Cabeçalho do site com o título e navegação principal -->
-    <header class="header-home">
-        <div class="title">
-            <h1>Pizzaria Delícia</h1>
-        </div>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="./pages/cardapio.html" class="nav-link">Cardápio</a></li>
-                <li class="nav-item"><a href="./pages/promocoes.html" class="nav-link">Promoções</a></li>
-                <li class="nav-item"><a href="./pages/pedidos.html" class="nav-link">Pedidos</a></li>
-                <li class="nav-item"><a href="./pages/localizador.html" class="nav-link">Localizador de Lojas</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-
-    <main>
-        <!-- Seção "Sobre nós" com informações da pizzaria -->
-        <section class="historia">
-            <figure>
-                <img class="logo" src="./assets/images/logo-marca.avif" alt="Imagem Pizzaria">
-            </figure>
-            <h2>Sobre nós</h2>
-            <p>
-                A Pizza Delícia nasceu do sonho de criar uma pizzaria que combinasse a autenticidade das receitas tradicionais com um toque especial de inovação. Fundada por apaixonados pela arte de fazer pizzas, a empresa começou em uma pequena cozinha e rapidamente conquistou clientes pela qualidade e sabor dos ingredientes frescos. O compromisso com o frescor e a escolha de ingredientes de alta qualidade sempre foram o foco, estabelecendo uma relação de confiança com os clientes desde o início.
-            </p>
-        </section>
-
-        <!-- Seção de Cardápio com lista de pizzas e suas descrições -->
-        <section class="cardapio">
-            <h2>Nosso Cardápio</h2>
-            <div class="pizzas">
-                <!-- Cada pizza é descrita com nome, imagem e legenda -->
-                <ul class="pizza-list">
-                    <li class="pizza-item">
-                        <h3>Pizza Calabresa</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Deliciosa pizza com rodelas de calabresa, cebola e um toque de orégano.</figcaption>
-                            <img src="./assets/images/pizza-calabresa.jpg" alt="Pizza Calabresa" class="pizza-img">
-                        </figure>
-                    </li>
-                
-                    <li class="pizza-item">
-                        <h3>Pizza Marguerita</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Clássica com molho de tomate, mussarela derretida e folhas frescas de manjericão.</figcaption>
-                            <img src="./assets/images/pizza-marguerita.png" alt="Pizza Marguerita" class="pizza-img">
-                        </figure>
-                    </li>
-                
-                    <li class="pizza-item">
-                        <h3>Pizza Quatro Queijos</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Mistura irresistível de mussarela, gorgonzola, parmesão e provolone.</figcaption>
-                            <img src="./assets/images/pizza-4-queijos.jpeg" alt="Pizza 4 Queijos" class="pizza-img">
-                        </figure>
-                    </li>
-                
-                    <li class="pizza-item">
-                        <h3>Pizza Portuguesa</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Com presunto, ovos, cebola, pimentão e azeitonas, uma explosão de sabores.</figcaption>
-                            <img src="./assets/images/pizza-portuguesa.jpeg" alt="Pizza Portuguesa" class="pizza-img">
-                        </figure>
-                    </li>
-                
-                    <li class="pizza-item">
-                        <h3>Pizza Frango com Catupiry</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Combinação de frango desfiado e cremoso catupiry, perfeita para quem ama sabor suave.</figcaption>
-                            <img src="./assets/images/pizza-frango-catupiry.jpg" alt="Pizza Frango/Catupiry" class="pizza-img">
-                        </figure>
-                    </li>
-                
-                    <li class="pizza-item">
-                        <h3>Pizza Pepperoni</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Tradicional pizza com fatias de pepperoni e mussarela, com toque picante.</figcaption>
-                            <img src="./assets/images/pizza-peperoni.jpeg" alt="Pizza Pepperoni" class="pizza-img">
-                        </figure>
-                    </li>
-                
-                    <li class="pizza-item">
-                        <h3>Pizza Vegetariana</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Recheada com legumes frescos, como tomate, pimentão, cebola e azeitonas.</figcaption>
-                            <img src="./assets/images/pizza-vegetariana.jpeg" alt="Pizza Vegetariana" class="pizza-img">
-                        </figure>
-                    </li>
-                
-                    <li class="pizza-item">
-                        <h3>Pizza Bacon com Cheddar</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Crocante bacon com queijo cheddar derretido, perfeita para os amantes de sabores intensos.</figcaption>
-                            <img src="./assets/images/pizza-bacon-cheddar.jpeg" alt="Pizza Bacon/Cheddar" class="pizza-img">
-                        </figure>
-                    </li>
-                
-                    <li class="pizza-item">
-                        <h3>Pizza de Atum</h3>
-                        <figure class="pizza-figure">
-                            <figcaption>Atum combinado com cebola e azeitonas para um sabor leve e refinado.</figcaption>
-                            <img src="./assets/images/pizza-atum.jpeg" alt="Pizza Atum" class="pizza-img">
-                        </figure>
-                    </li>
+    <head>
+        <!-- Metadados do documento -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizza Delícia</title>
+        <link rel="shortcut icon" href="./assets/images/pizza.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <!-- Cabeçalho do site com o título e navegação principal -->
+        <header class="header-home">
+            <div class="title">
+                <h1>Pizzaria Delícia</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./pages/quemsomos.html" class="nav-link" target="content">Quem somos</a></li>
+                    <li class="nav-item"><a href="./pages/cardapio.html" class="nav-link" target="content">Cardápio</a></li>
+                    <li class="nav-item"><a href="./pages/promocoes.html" class="nav-link" target="content">Promoções</a></li>
+                    <li class="nav-item"><a href="./pages/pedidos.html" class="nav-link" target="content">Pedidos</a></li>
+                    <li class="nav-item"><a href="./pages/localizador.html" class="nav-link" target="content">Localizador de Lojas</a></li>
                 </ul>
+            </nav>
+        </header>
+        <main>
+            <iframe title = "Corpo da Página" name = "content" width = "100%" height ="800px" frameborder = "0" src = "./pages/quemsomos.html"></iframe>
+        </main>
+        <!-- Rodapé do site com informações de contato e links para redes sociais -->
+        <footer class="footer">
+            <div class="footer-content">
+                <h4 class="title-footer">Informações de Contato</h4>
+                <div class="list-footer">
+                        <a href="tel:085987654321" class="link-footer">
+                            <figure>
+                                <img class="ico-footer" src="./assets/images/phone-solid.svg">
+                            </figure>
+                        </a>
+                        <a href="https://wa.me/5585987654321" class="link-footer">
+                            <figure>
+                                <img class="ico-footer" src="./assets/images/whatsapp-brands-solid.svg">
+                            </figure>
+                        </a>
+                        <a href="mailto:pizzariadelicia@gmail.com" class="link-footer">
+                            <figure>
+                                <img class="ico-footer" src="./assets/images/envelope-solid.svg">
+                            </figure>
+                        </a>
+                        <a href="https://www.facebook.com/#" class="link-footer">
+                            <figure>
+                                <img class="ico-footer" src="./assets/images/facebook-brands-solid.svg">
+                            </figure>
+                        </a>
+                        <a href="https://www.instagram.com/#" class="link-footer">
+                            <figure>
+                                <img class="ico-footer" src="./assets/images/instagram-brands-solid.svg">
+                            </figure>
+                        </a>
+                        <a href="https://ifood.com/pizzaria_delicia_ce" class="link-footer">
+                            <figure>
+                                <img class="ico-footer" src="./assets/images/ifood.svg">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="linkpage">
-                <p class="colorp">Acesse nossa página de pedidos:</p>
-                <a href="./pages/pedidos.html">Página de Pedidos</a>
-            </div>
-
-        </section>
-    </main>
-
-    <!-- Rodapé do site com informações de contato e links para redes sociais -->
-    <footer class="footer">
-        <div class="footer-content">
-            <h4 class="title-footer">Informações de Contato</h4>
-            <ul class="list-footer">
-                <li class="item-footer">Telefone: XX X XXXX-XXXX</li>
-                <li class="item-footer">Email: pizzariadelicia@hotmail.com</li>
-                <li class="item-footer"><a href="#" class="link-footer">Instagram</a></li>
-                <li class="item-footer"><a href="#" class="link-footer">Facebook</a></li>
-            </ul>
-        </div>
-    </footer>
-    
-
-</body>
+        </footer>
+    </body>
 </html>
