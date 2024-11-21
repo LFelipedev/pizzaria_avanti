@@ -1,231 +1,255 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>  
-        <meta charset="utf-8">
-        <title>Nosso Cardápio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../assets/css/style.css">
-    </head>
-    <body>
-        <!--Botão flexivel-->
-        <a href="#topo" id="goto_top"><button class="button-generic">↑ Ir para o topo ↑</button></a>
-        <!--Cabeçalho-->
-        <header>
-            <nav id="topo" class="secoes_itens">
-                <a href="#tradicional"><button class="button-generic">Pizzas Tradicionais</button></a>
-                <a href="#especial"><button class="button-generic">Pizzas Especiais</button></a>
-                <a href="#sobremesa"><button class="button-generic">Sobremesas</button></a>
-                <a href="#bebida"><button class="button-generic">Bebidas</button></a>
-            </nav>
-        <h1>Nosso Cardápio</h1>
-        <p>Bem-vindo ao nosso cardápio! Aqui você encontra uma variedade de pizzas deliciosas que agradam a todos os paladares. Começamos com nossas pizzas tradicionais, preparadas com receitas clássicas e ingredientes frescos, perfeitas para quem adora sabores autênticos. Em seguida, temos as pizzas especiais, combinações criativas e exclusivas que surpreendem em cada pedaço. Para finalizar, temos sobremesas irresistíveis para adoçar seu momento, além de uma seleção de bebidas para acompanhar sua refeição. Aproveite e bom apetite!</p>
-        </header>
 
-        <!--Cardápio-->
-        <main>
-            <!--Pizzas Tradicionais-->
-            <section class="pizzas-container">
-                <hr>
-                <h2 id="tradicional">Pizzas Tradicionais</h2>
-                <figure>
-                    <img width="300" src="https://o.imgac.net/receita/pizza-marguerita-34328.jpg" alt="Imagem de Pizza Margherita - pizza clássica com molho de tomate, mussarela e manjericão">
-                    <figcaption><i>Pizza Margherita</i></figcaption>
-                </figure>
-                <table border="1">
-                    <!--Cabeçalho-->
-                    <thead>
-                        <tr>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Descrição</th>
-                            <th scope="col">Preço</th>
-                        </tr>
-                    </thead>
+<head>
+    <meta charset="utf-8">
+    <title>Nosso Cardápio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
 
-                    <!--Corpo-->
-                    <tbody>
-                        <!--Margherita-->
-                        <tr>
-                            <td>Margherita</td>
-                            <td>Molho de tomate, mussarela e manjericão</td>
-                            <td>R$ 30,00</td>
-                        </tr>
-                        
-                        <!--Calabresa-->
-                        <tr>
-                            <td>Calabresa</td>
-                            <td>Calabresa, cebola, azeitona e mussarela</td>
-                            <td>R$ 35,00</td>
-                        </tr>
-                        
-                        <!--Portuguesa-->
-                        <tr>
-                            <td>Portuguesa</td>
-                            <td>Presunto, ovo, cebola, azeitona e mussarela</td>
-                            <td>R$ 38,00</td>
-                        </tr>
-                        
-                        <!--Quatro Queijos-->
-                        <tr>
-                            <td>Quatro Queijos</td>
-                            <td>Mussarela, provolone, gorgonzola e parmesão</td>
-                            <td>R$ 40,00</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+<body>
+    <!--Botão flexivel-->
+    <a href="#topo" id="goto_top"><button class="button-generic">↑ Ir para o topo ↑</button></a>
+    <!--Cabeçalho-->
+    <header>
+        <nav id="topo" class="secoes_itens">
+            <a href="#tradicional"><button class="button-generic">Pizzas Tradicionais</button></a>
+            <a href="#especial"><button class="button-generic">Pizzas Especiais</button></a>
+            <a href="#sobremesa"><button class="button-generic">Sobremesas</button></a>
+            <a href="#bebida"><button class="button-generic">Bebidas</button></a>
+        </nav>
+        <div class="subtitle">
+            <h2>Nosso Cardápio</h2>
+        </div>
 
-            <!--Pizzas Especiais-->
-            <section class="pizzas-container">
-                <br>
-                <h2 id="especial">Pizzas Especiais</h2>
-                <figure>
-                    <img width="300"  src="https://i.pinimg.com/originals/6b/16/c6/6b16c64e378240f274f7760488983e60.jpg" alt="Imagem de Pizza de Frango com Catupiry - pizza com frango desfiado, catupiry e milho">
-                    <figcaption><i>Pizza de Frango com Catupiry</i></figcaption>
-                </figure>
-                <table border="1">
-                    <!--Cabeçalho-->
-                    <thead>
-                        <tr>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Descrição</th>
-                            <th scope="col">Preço</th>
-                        </tr>
-                    </thead>
+        <p class="description">Bem-vindo ao nosso cardápio! Aqui você encontra uma variedade de pizzas deliciosas que
+            agradam a todos os paladares. Começamos com nossas pizzas tradicionais, preparadas com receitas clássicas e
+            ingredientes frescos, perfeitas para quem adora sabores autênticos. Em seguida, temos as pizzas especiais,
+            combinações criativas e exclusivas que surpreendem em cada pedaço. Para finalizar, temos sobremesas
+            irresistíveis para adoçar seu momento, além de uma seleção de bebidas para acompanhar sua refeição.
+            Aproveite e bom apetite!</p>
+    </header>
 
-                    <!--Corpo-->
-                    <tbody>
-                        <!--Frango com Catupiry-->
-                        <tr>
-                            <td>Frango com Catupiry</td>
-                            <td>Frango desfiado, catupiry e milho</td>
-                            <td>R$ 45,00</td>
-                        </tr>
-                        
-                        <!--Pepperoni Supreme-->
-                        <tr>
-                            <td>Pepperoni Supreme</td>
-                            <td>Pepperoni, mussarela e toque de alho</td>
-                            <td>R$ 47,00</td>
-                        </tr>
-                        
-                        <!--Vegetariana-->
-                        <tr>
-                            <td>Vegetariana</td>
-                            <td>Abobrinha, berinjela, pimentão e cogumelos</td>
-                            <td>R$ 42,00</td>
-                        </tr>
-                        
-                        <!--Do Chef-->
-                        <tr>
-                            <td>Do Chef</td>
-                            <td>Ingredientes selecionados do dia</td>
-                            <td>R$ 50,00</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+    <!--Cardápio-->
+    <main>
+        <!--Pizzas Tradicionais-->
+        <section class="pizzas-container">
+            <h2 id="tradicional">Pizzas Tradicionais</h2>
+            <figure class="pizza-figure">
+                <img width="300" src="https://o.imgac.net/receita/pizza-marguerita-34328.jpg"
+                    alt="Imagem de Pizza Margherita - pizza clássica com molho de tomate, mussarela e manjericão"
+                    class="pizza-img">
+                <figcaption><i>Pizza Margherita</i></figcaption>
+            </figure>
+            <table border="1">
+                <!--Cabeçalho-->
+                <thead class="thead">
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Preço</th>
+                    </tr>
+                </thead>
 
-            <!--Sobremesas-->
-            <section class="pizzas-container">
-                <br>
-                <h2 id="sobremesa">Sobremesas</h2>
-                <figure>
-                    <img width="300"  src="https://oquetempracomer.com.br/wp-content/uploads/elementor/thumbs/Brownie-de-chocolate-com-sorvete-4-pxwpt70slxi6kk1mtsi0v2bcjh6dzcmawnzyu1rzbw.jpg" alt="Imagem de Brownie com Sorvete - brownie de chocolate servido com sorvete de creme">
-                    <figcaption><i>Brownie com Sorvete</i></figcaption>
-                </figure>
-                <table border="1">
-                    <!--Cabeçalho-->
-                    <thead>
-                        <tr>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Descrição</th>
-                            <th scope="col">Preço</th>
-                        </tr>
-                    </thead>
+                <!--Corpo-->
+                <tbody class="tbody">
+                    <!--Margherita-->
+                    <tr>
+                        <td>Margherita</td>
+                        <td>Molho de tomate, mussarela e manjericão</td>
+                        <td>R$ 30,00</td>
+                    </tr>
 
-                    <!--Corpo-->
-                    <tbody>
-                        <!--Brownie com Sorvete-->
-                        <tr>
-                            <td>Brownie com Sorvete</td>
-                            <td>Brownie de chocolate com sorvete de creme</td>
-                            <td>R$ 18,00</td>
-                        </tr>
-                            
-                        <!--Petit Gâteau-->
-                        <tr>
-                            <td>Petit Gâteau</td>
-                            <td>Bolo de chocolate com recheio quente e sorvete</td>
-                            <td>R$ 20,00</td>
-                        </tr>
-                            
-                        <!--Torta de Limão-->
-                        <tr>
-                            <td>Torta de Limão</td>
-                            <td>Torta de limão com merengue</td>
-                            <td>R$ 15,00</td>
-                        </tr>
-                            
-                        <!--Mousse de Maracujá-->
-                        <tr>
-                            <td>Mousse de Maracujá</td>
-                            <td>Mousse de maracujá com cobertura de calda</td>
-                            <td>R$ 12,00</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+                    <!--Calabresa-->
+                    <tr>
+                        <td>Calabresa</td>
+                        <td>Calabresa, cebola, azeitona e mussarela</td>
+                        <td>R$ 35,00</td>
+                    </tr>
 
-            <!--Bebidas-->
-            <section class="pizzas-container">
-                <br>
-                <h2 id="bebida">Bebidas</h2>
-                <figure>
-                    <img width="300"  src="https://www.kindpng.com/picc/m/380-3805562_clip-art-imagens-de-refrigerantes-refrigerante-lata-hd.png" alt="Imagem de Refrigerante Lata - lata de refrigerante com diversos sabores disponíveis">
-                    <figcaption><i>Refrigerante Lata</i></figcaption>
-                </figure>
-                <table border="1">
-                    <!--Cabeçalho-->
-                    <thead>
-                        <tr>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Descrição</th>
-                            <th scope="col">Preço</th>
-                        </tr>
-                    </thead>
+                    <!--Portuguesa-->
+                    <tr>
+                        <td>Portuguesa</td>
+                        <td>Presunto, ovo, cebola, azeitona e mussarela</td>
+                        <td>R$ 38,00</td>
+                    </tr>
 
-                    <!--Corpo-->
-                    <tbody>
-                        <!--Refrigerante Lata-->
-                        <tr>
-                            <td>Refrigerante Lata</td>
-                            <td>Diversos sabores</td>
-                            <td>R$ 5,00</td>
-                        </tr>
-                            
-                        <!--Suco Natural-->
-                        <tr>
-                            <td>Suco Natural</td>
-                            <td>Suco de frutas frescas (laranja, limão)</td>
-                            <td>R$ 8,00</td>
-                        </tr>
-                            
-                        <!--Água Mineral-->
-                        <tr>
-                            <td>Água Mineral</td>
-                            <td>Com ou sem gás</td>
-                            <td>R$ 4,00</td>
-                        </tr>
-                        
-                        <!--Cerveja Long Neck-->
-                        <tr>
-                            <td>Cerveja Long Neck</td>
-                            <td>Diversas marcas</td>
-                            <td>R$ 10,00</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </main>
-    </body>
+                    <!--Quatro Queijos-->
+                    <tr>
+                        <td>Quatro Queijos</td>
+                        <td>Mussarela, provolone, gorgonzola e parmesão</td>
+                        <td>R$ 40,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--Pizzas Especiais-->
+        <section class="pizzas-container">
+
+            <h2 id="especial">Pizzas Especiais</h2>
+            <figure class="pizza-figure">
+                <img width="300" src="https://i.pinimg.com/originals/6b/16/c6/6b16c64e378240f274f7760488983e60.jpg"
+                    alt="Imagem de Pizza de Frango com Catupiry - pizza com frango desfiado, catupiry e milho"
+                    class="pizza-img">
+                <figcaption><i>Pizza de Frango com Catupiry</i></figcaption>
+            </figure>
+            <table border="1">
+                <!--Cabeçalho-->
+                <thead class="thead">
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Preço</th>
+                    </tr>
+                </thead>
+
+                <!--Corpo-->
+                <tbody class="tbody">
+                    <!--Frango com Catupiry-->
+                    <tr>
+                        <td>Frango com Catupiry</td>
+                        <td>Frango desfiado, catupiry e milho</td>
+                        <td>R$ 45,00</td>
+                    </tr>
+
+                    <!--Pepperoni Supreme-->
+                    <tr>
+                        <td>Pepperoni Supreme</td>
+                        <td>Pepperoni, mussarela e toque de alho</td>
+                        <td>R$ 47,00</td>
+                    </tr>
+
+                    <!--Vegetariana-->
+                    <tr>
+                        <td>Vegetariana</td>
+                        <td>Abobrinha, berinjela, pimentão e cogumelos</td>
+                        <td>R$ 42,00</td>
+                    </tr>
+
+                    <!--Do Chef-->
+                    <tr>
+                        <td>Do Chef</td>
+                        <td>Ingredientes selecionados do dia</td>
+                        <td>R$ 50,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--Sobremesas-->
+        <section class="pizzas-container">
+            <h2 id="sobremesa">Sobremesas</h2>
+            <figure class="pizza-figure">
+                <img width="300"
+                    src="https://oquetempracomer.com.br/wp-content/uploads/elementor/thumbs/Brownie-de-chocolate-com-sorvete-4-pxwpt70slxi6kk1mtsi0v2bcjh6dzcmawnzyu1rzbw.jpg"
+                    alt="Imagem de Brownie com Sorvete - brownie de chocolate servido com sorvete de creme"
+                    class="pizza-img">
+                <figcaption><i>Brownie com Sorvete</i></figcaption>
+            </figure>
+            <table border="1">
+                <!--Cabeçalho-->
+                <thead class="thead">
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Preço</th>
+                    </tr>
+                </thead>
+
+                <!--Corpo-->
+                <tbody class="tbody">
+                    <!--Brownie com Sorvete-->
+                    <tr>
+                        <td>Brownie com Sorvete</td>
+                        <td>Brownie de chocolate com sorvete de creme</td>
+                        <td>R$ 18,00</td>
+                    </tr>
+
+                    <!--Petit Gâteau-->
+                    <tr>
+                        <td>Petit Gâteau</td>
+                        <td>Bolo de chocolate com recheio quente e sorvete</td>
+                        <td>R$ 20,00</td>
+                    </tr>
+
+                    <!--Torta de Limão-->
+                    <tr>
+                        <td>Torta de Limão</td>
+                        <td>Torta de limão com merengue</td>
+                        <td>R$ 15,00</td>
+                    </tr>
+
+                    <!--Mousse de Maracujá-->
+                    <tr>
+                        <td>Mousse de Maracujá</td>
+                        <td>Mousse de maracujá com cobertura de calda</td>
+                        <td>R$ 12,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--Bebidas-->
+        <section class="pizzas-container">
+            <br>
+            <h2 id="bebida">Bebidas</h2>
+            <figure class="pizza-figure">
+                <img width="300"
+                    src="https://www.kindpng.com/picc/m/380-3805562_clip-art-imagens-de-refrigerantes-refrigerante-lata-hd.png"
+                    alt="Imagem de Refrigerante Lata - lata de refrigerante com diversos sabores disponíveis">
+                <figcaption><i>Refrigerante Lata</i></figcaption>
+            </figure>
+            <table border="1">
+                <!--Cabeçalho-->
+                <thead class="thead">
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Preço</th>
+                    </tr>
+                </thead>
+
+                <!--Corpo-->
+                <tbody class="tbody">
+                    <!--Refrigerante Lata-->
+                    <tr>
+                        <td>Refrigerante Lata</td>
+                        <td>Diversos sabores</td>
+                        <td>R$ 5,00</td>
+                    </tr>
+
+                    <!--Suco Natural-->
+                    <tr>
+                        <td>Suco Natural</td>
+                        <td>Suco de frutas frescas (laranja, limão)</td>
+                        <td>R$ 8,00</td>
+                    </tr>
+
+                    <!--Água Mineral-->
+                    <tr>
+                        <td>Água Mineral</td>
+                        <td>Com ou sem gás</td>
+                        <td>R$ 4,00</td>
+                    </tr>
+
+                    <!--Cerveja Long Neck-->
+                    <tr>
+                        <td>Cerveja Long Neck</td>
+                        <td>Diversas marcas</td>
+                        <td>R$ 10,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Link para página de pedidos -->
+        <section class="order-link">
+            <a href="/pizzaria_avanti/pages/pedidos.html" class="btn-ordering">Ir para página de pedidos</a><br>
+            <a href="/pizzaria_avanti/pages/promocoes.html" class="btn-ordering">Acesse nossas promoções</a>
+        </section>
+    </main>
+</body>
+
 </html>

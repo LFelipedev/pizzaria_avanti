@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Localizador de loja</title>
 </head>
-<body>
-    <header>
-        <!--Título do Site-->
-        <h1><code>Encontre a Loja Mais Próxima</code></h1>
-        <p><code>Descubra o local mais próximo de sua casa e venha conhecer a pizza mais deliciosa do Ceará!</code></p>
-    </header>
 
-    <br>
-    <hr>
-    <br>
+<body>
 
     <main>
+        <div class="subtitle">
+            <h2>Encontre a Loja Mais Próxima</h2>
+        </div>
+        <!-- Descrição -->
+        <p class="description">Descubra o local mais próximo de sua casa e venha conhecer a pizza mais deliciosa do
+            Ceará!</p>
         <!--Conteúdo principal-->
 
         <!--Imagem do local no Google Maps-->
         <figure class="maps-local">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7960.439013394165!2d-38.53684777779115!3d-3.975181462523486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b8a9acc81ec38d%3A0xf85b5e33d5038612!2sPizzaria%20Delicia%201!5e0!3m2!1spt-BR!2sbr!4v1730157321950!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7960.439013394165!2d-38.53684777779115!3d-3.975181462523486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b8a9acc81ec38d%3A0xf85b5e33d5038612!2sPizzaria%20Delicia%201!5e0!3m2!1spt-BR!2sbr!4v1730157321950!5m2!1spt-BR!2sbr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </figure>
-        <br>
-        <hr>
-        <br>
+
 
         <!--Tabela de lojas-->
-        <section>
+        <section class="container-local">
             <table border="1" cellspacing="0" cellpadding="5" class="local-table">
                 <tr>
                     <th>Endereço</th>
@@ -58,16 +58,17 @@
 
         <!--Imagem Pizzaria-->
         <figure class="local-img">
-            <img height="700px" src="https://lh5.googleusercontent.com/p/AF1QipMqymFJu2B21DAH9IlT5-mGiv2pKXGZFX-7xp64=w408-h725-k-no" alt="imagem pizzaria">
+            <img height="700px"
+                src="https://lh5.googleusercontent.com/p/AF1QipMqymFJu2B21DAH9IlT5-mGiv2pKXGZFX-7xp64=w408-h725-k-no"
+                alt="imagem pizzaria">
         </figure>
 
         <!--Botão de voltar-->
-        <section>
-            <button class="btn-return">
-                <a href="../index.html">Voltar a página inicial</a>
-            </button>
+        <section class="order-link">
+            <a href="/pizzaria_avanti/pages/quemsomos.html" class="btn-ordering">Voltar a página inicial</a>
         </section>
 
     </main>
 </body>
+
 </html>
