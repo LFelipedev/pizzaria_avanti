@@ -14,23 +14,29 @@ body {
 
 
 /* Cabeçalho - Estilos gerais */
-.header-home {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
     background-color: #A52A2A;
-    padding: 25px;
+    gap: 20px;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 40px;
 }
 
 /* Barra de Navegação */
-.nav-list {
+.navbar-list {
     display: flex;
     gap: 30px;
     list-style-type: none;
 }
 
 .nav-link {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     font-weight: bold;
