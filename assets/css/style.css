@@ -236,7 +236,8 @@ body {
 }
 
 /* Rodapé - Informações e estilo */
-.footer {
+
+footer {
     display: flex;
     flex-direction: column;
     background-color: #A52A2A;
@@ -244,41 +245,36 @@ body {
     text-align: center;
 }
 
-.footer-content {
+.contact-container {
     display: flex;
     margin: auto;
     width: 100%;
     align-items: center;
     justify-content:space-between;
+    align-content: center;
 }
 
 /* Título do Rodapé */
-.title-footer {
+.contact-container h4 {
     font-size: 1.8rem;
     font-weight: bold;
-    margin-bottom: 20px;
     text-transform: uppercase;
     color: white;
     text-align: left;
 }
 
 /* Lista de informações do Rodapé */
-.list-footer {
+.contact-list {
+    list-style: none;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
     padding: 0;
     margin: 0;
 }
 
-/* Alteração na tag a */
-.link-footer {
-    display: inline-block;
-}
-
-/* Links do Rodapé */
-.ico-footer {
-    width: 30px;
-    height: auto;
-    display: inline-block;
+/* Ícones de contato */
+.contact-icon i{
+    font-size: 1.8rem;
+    color: white;
 }
