@@ -11,9 +11,7 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-
-
-/* Cabeçalho - Estilos gerais */
+/* Cabeçalho */
 header {
     display: flex;
     align-items: center;
@@ -50,54 +48,10 @@ header h1 {
     background-color: #ffd382;
 }
 
-
 /* Estilo para o logo */
 .logo {
     width: 130px;
     border-radius: 50%;
-}
-
-/* Título da página */
-.title {
-    font-size: 2.5rem;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* Seção 'Sobre Nós' */
-.historia {
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px 20px;
-    text-align: center;
-    color: black;
-    font-family: monospace;
-}
-
-.historia h2 {
-    font-size: 2.5rem;
-    color: #A52A2A;
-    margin-bottom: 20px;
-}
-
-.historia p, .historia ol {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-.historia ol {
-    padding-left: 20px;
-    text-align: left;
-}
-
-/* Lista de pizzas */
-.pizza-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 /* Cada item de pizza */
@@ -188,25 +142,11 @@ header h1 {
     background-color: #A52A2A;
 }
 
-.button-generic {
-    padding: 15px 32px;
-    background-color: #FFFFFF;
-    border: 2px solid #AAAAAA;
-    color: #333333;
-    display: inline-block;
-    transition-duration: 0.4s;
-}
-
-.button-generic:hover {
-    background-color: #333333;
-    color: #FFFFFF;
-}
-
-#goto_top{
+/* #goto_top{
     position: fixed;
     right: 0;
     bottom: 0;
-}
+} */
 
 /* Botão para Página de Pedidos */
 .cardapio a {
