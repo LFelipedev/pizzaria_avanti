@@ -58,13 +58,15 @@ header h1 {
 .about-us {
     display: flex;
     flex-direction: column;
+    width: 100%;
     align-items: center;
+    justify-content: center;
     gap: 15px;
     padding: 20px;
 }
 
 .about-us h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .about-us p {
